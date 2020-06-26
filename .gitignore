@@ -1,1 +1,7 @@
+<<<<<<< HEAD
 env/
+=======
+env/
+.vscode/
+*.csv
+>>>>>>> 89ce0fee8fa465504d592d5b2c37e5183e5f8156
