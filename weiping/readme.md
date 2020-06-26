@@ -12,6 +12,10 @@ pip install yfinance
 - search under myMac "Install Certificates.command" script file
    copy it to project then run it.
 
+* change folder to 
+```
+ . ./Install\ Certificates.command 
+```
 ```sh
 pip install matplotlib
 pip install seaborn

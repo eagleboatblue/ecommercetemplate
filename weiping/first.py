@@ -5,7 +5,7 @@ import seaborn
 msft = yf.Ticker("MSFT")
 
 # get stock info
-print(msft.info)
+#print(msft.info)
 
 # get historical market data
 hist = msft.history(period="5d")
@@ -13,6 +13,7 @@ hist = msft.history(period="5d")
 print(type(hist))
 
 # msft.actions
+print(hist['Close'])
 
 # Plot everything by leveraging the very powerful matplotlib package
 hist['Close'].plot(figsize=(16, 9))
